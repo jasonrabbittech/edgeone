@@ -487,6 +487,14 @@
     </div>
 
     <script>
+       // API网关配置
+        const API_BASE_URL = 'https://susunola.com/upload';
+        const API_ENDPOINTS = {
+            UPLOAD: '/upload',
+            LIST: '/list',
+            DOWNLOAD: '/download',
+            DELETE: '/delete'
+        };
         // 文件上传功能（代理版）
         async function uploadFile() {
             const fileInput = document.getElementById('fileInput');
@@ -505,7 +513,7 @@
 
             // 显示上传状态
             uploadBtn.disabled = true;
-            uploadBtn.innerHTML = '<span class="loading-spinner"></span>上传中...';
+            uploadBtn.innerHTML = '<span class="loading-spinner"></span>Uploading...';
             uploadProgress.style.display = 'block';
             
             // 模拟进度条
@@ -517,7 +525,7 @@
             }, 200);
 
             try {
-                const response = await fetch('https://susunola.com/upload/upload', {
+                const response = await fetch(`${API_BASE_URL}${API_ENDPOINTS.UPLOAD}`, {
                     method: 'POST',
                     body: formData
                 });
