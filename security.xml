@@ -102,5 +102,11 @@
     "w": 30,
     "h": 32,
     "title": "凭据管理系统-32"
+  },
+  {
+    "data": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjEgMSAxNSAxNSIgaGVpZ2h0PSIzMCIgd2lkdGg9IjMwIj4mI3hhOzxwYXRoIGZpbGw9IiMwMDVBRkYiIGQ9Ik0yIDJIMTRWOUgxM0wxMiA4SDdWMTRIMlYyWiIgb3BhY2l0eT0iMC4xIi8+JiN4YTs8cGF0aCBmaWxsPSIjMDA1QUZGIiBkPSJNNSA4VjJIOVY4TDcgNkw1IDhaIi8+JiN4YTs8cGF0aCBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZT0iIzAwNUFGRiIgZD0iTTcgMTRIMlYyQzIgMiA4LjUzMjY2IDIgMTQgMlY5Ii8+JiN4YTs8cmVjdCBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZT0iIzAwNUFGRiIgaGVpZ2h0PSI0IiB3aWR0aD0iNiIgeT0iMTEiIHg9IjkiLz4mI3hhOzxwYXRoIGZpbGw9IiMwMDVBRkYiIGQ9Ik0xMSA5TDEyIDEwVjExSDhWMTBWOUgxMVoiLz4mI3hhOzwvc3ZnPg==",
+    "w": 32,
+    "h": 32,
+    "title": "证书管理-32"
   }
 ]</mxlibrary>
